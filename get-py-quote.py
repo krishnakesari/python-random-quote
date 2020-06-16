@@ -8,7 +8,7 @@ def main():
   quotes = f.readlines()
   f.close()
 
-  print(quotes[rnd])
-  print(quotes[1])
+  print("Just picked a random quote: " + quotes[rnd])
+  print("This is the first quote: " + quotes[0])
 
 if __name__== "__main__": main()
