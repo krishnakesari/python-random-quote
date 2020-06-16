@@ -1,5 +1,5 @@
 def main():
-  # print("Keep it logically awesome.")
+  
   import random
   last = 13
   rnd = random.randint(0, last)
@@ -9,6 +9,6 @@ def main():
   f.close()
 
   print(quotes[rnd])
+  print(quotes[1])
 
-if __name__== "__main__":
-  main()
+if __name__== "__main__": main()
